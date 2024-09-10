@@ -6,6 +6,8 @@ import store from '@/store'
 import FirebaseSignUp from '@/views/FirebaseSignUp.vue'
 import FirebaseSignIn from '@/views/FirebaseSignIn.vue'
 import FirebaseSignOut from '@/views/FirebaseSignOut.vue'
+import AddBookView from '@/views/AddBookView.vue'
+import BookList from '@/components/BookList.vue'
 
 const routes = [
   {
@@ -13,6 +15,17 @@ const routes = [
     name: 'Home',
     component: HomeView
   },
+  {
+    path: '/addbook',
+    name: 'AddBook',
+    component: AddBookView,
+  },
+  {
+    path: '/books',
+    name: 'Books',
+    component: BookList,
+  },
+  
   {
     path: '/firebaseLogin',
     name: 'firebaseLogin',
