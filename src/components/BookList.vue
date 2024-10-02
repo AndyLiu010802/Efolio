@@ -9,7 +9,7 @@
       </li>
     </ul>
 
-    <!-- Dialog for updating the book -->
+    <!-- Dialog for updating -->
     <div v-if="isDialogVisible" class="dialog">
       <h3>Update Book Name</h3>
       <input v-model="newBookName" placeholder="Enter new book name" />
