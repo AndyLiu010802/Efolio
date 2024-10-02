@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDI8amjnBQeGx-PG2f3jJg9UcNLrCkHym0",
-  authDomain: "efolio4.firebaseapp.com",
-  projectId: "efolio4",
-  storageBucket: "efolio4.appspot.com",
-  messagingSenderId: "492013215501",
-  appId: "1:492013215501:web:5ba60429210317322f5a44",
-  measurementId: "G-B6XFFZJ8YV"
+  apiKey: "AIzaSyDMHW7GqJOjynZiXAosg4d7pCD0Yw0D3CA",
+  authDomain: "w9-5032.firebaseapp.com",
+  projectId: "w9-5032",
+  storageBucket: "w9-5032.appspot.com",
+  messagingSenderId: "847487167555",
+  appId: "1:847487167555:web:6f09019fb7f4e2d678f8f6",
+  measurementId: "G-5FVJDW7EKJ"
 };
 
 // Initialize Firebase

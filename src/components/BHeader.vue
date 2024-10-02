@@ -13,6 +13,18 @@
           <router-link to="/about" class="nav-link" active-class="active">About</router-link>
         </li>
         <li class="nav-item">
+          <router-link to="/GetAllBook" class="nav-link" active-class="active">GetAllBook</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/WeatherCheck" class="nav-link" active-class="active">WeatherCheck</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/CountBookAPI" class="nav-link" active-class="active">CountBookAPI</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/GetBookCount" class="nav-link" active-class="active">Get Your Book Count</router-link>
+        </li>
+        <li class="nav-item">
           <router-link to="/Login" class="nav-link" active-class="active">Login</router-link>
         </li>
         <li class="nav-item">
